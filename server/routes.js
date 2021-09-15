@@ -3,5 +3,6 @@ const Router = express.Router();
 const controllers = require('./controllers.js');
 
 Router.get('/options', controllers.getAllOptions);
+Router.get('/form', controllers.getFormFields);
 
 module.exports.Router = Router;

@@ -1,7 +1,10 @@
 import React from 'react';
+import { Options } from './Options.jsx';
 
 export const App = () => {
   return (
-    <div>I am React!!!!</div>
+    <div className="app">
+      <Options />
+    </div>
   )
 }
