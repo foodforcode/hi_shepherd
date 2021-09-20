@@ -63,13 +63,13 @@ Navigate to [localhost:3000](http://localhost:3000) in your browser to view and 
 ### 🏗 Architecture:
 - Front end:
 
-> React w/ hooks: A modern, popular front end framework used to create this Single Page Application that allows for seamless re-rendering of data without reloading. Hooks allow for the simple state management this project required, without use of additional libraries. React is fast and highly scalable.
+> React w/ hooks: A modern, popular front end framework used to create this Single Page Application that allows for seamless re-rendering of data without reloading. Hooks allow for the simple state management this project required without use of additional libraries. React is fast and highly scalable.
 
 
-> Reactstrap powered by Bootstrap: A toolkit for building mobile-first sites with responsive components. Provides increased accesibility which is a standard and requirement. Great for getting this mvp completed in a timely manner and keep components uniform. Easily integrates with Sass.
+> Reactstrap powered by Bootstrap: A toolkit for building mobile-first sites with responsive components. Provides increased accesibility which is a standard requirement. Great for getting this mvp completed in a timely manner and keep components uniform. Easily integrates with preprocessors.
 
 
-> Axios: A promise-based library for making HTTP requests and handling responses.
+> Axios: A promise-based library used for retreiving application options and forms and sending form data.
 
 
 - Back end:
@@ -79,13 +79,13 @@ Navigate to [localhost:3000](http://localhost:3000) in your browser to view and 
 > Nodemon: A utility used for ease in development by restarting application upon file changes. Efficient for viewing changes during development.
 
 
-> node-postgres & pg-format: Modules for interfacing with postgreSQL database and write dyanamic query strings useful in the context of these unique, dynamic forms with protection against sql injections.
+> node-postgres & pg-format: Modules for interfacing with postgreSQL database and writing dyanamic query strings. Used to keep backend code dry in the context of these unique, dynamic forms and protect against sql injections.
 
 
 - Build tools:
 
 
-> Webpack: This webpack is a custom configuration for this broker dashboard application, chosen over Create React App for customizabization and scalability. Webpack with Babel is used as a compiler and transpiler and bundler to allow browers to read code written in jsx as js in one convenient but large bundle. Webpack can easily be configured for the addition of Sass and other libraries as needed during scaling.
+> Webpack: This webpack is a custom configuration for this broker dashboard, chosen over Create React App for customizability and scalability. Webpack with Babel is used as a compiler, transpiler, and bundler to allow browers to read jsx code in one convenient, but large, bundle. Webpack can easily be configured for the addition of Sass and other libraries as needed during scaling.
 
 ### 📚 Tech Stack:
 * [React v17](https://reactjs.org/) + [Webpack v5](https://webpack.js.org/)
