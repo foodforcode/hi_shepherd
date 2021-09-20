@@ -10,7 +10,10 @@ export const InputField = ({
 }) => {
   return (
     <FormGroup>
-      <Label key={field.name + " label"}>{field.name}</Label>
+      <Label key={field.name + " label"}>
+        {field.name}
+        {field.required ? "*" : null}
+      </Label>
       <Input
         type={field.type}
         required={field.required ? true : null}

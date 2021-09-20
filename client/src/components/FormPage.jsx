@@ -33,7 +33,12 @@ export const FormPage = ({ formFields, formOption }) => {
 
   return (
     <Fragment>
-      <Button color="warning" onClick={() => location.reload()} value="Back">
+      <Button
+        color="warning"
+        outline
+        onClick={() => location.reload()}
+        value="Back"
+      >
         {formStatus === "success" ? "Submit Another" : "Start Over"}
       </Button>
       <SubmitMessage message={formStatus} />
