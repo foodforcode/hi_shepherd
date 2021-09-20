@@ -95,7 +95,7 @@ Navigate to [localhost:3000](http://localhost:3000) in your browser to view and 
 * [node-postgres](https://www.npmjs.com/package/pg) + [pg-format](https://www.npmjs.com/package/pg-format)
 
 ### Future Development:
-1. Add test Coverage
+1. Add test coverage
 2. Add PDF generation upon form submission
 3. Add React Router for url 'redirect' to form pages
 4. Implement TypeScript for type checking
