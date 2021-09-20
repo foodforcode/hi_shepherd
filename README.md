@@ -13,7 +13,7 @@ This full stack web application allows a broker to complete an application for a
 
 ### Installation:
 1. `git clone https://github.com/foodforcode/hi_shepherd.git`
-2. navigate to root directory *hi_shepherd/*
+2. Navigate to root directory *hi_shepherd/*
 3. `psql -d test -a -f ./database/schema.sql` in your terminal to create PostgreSQL database and tables
 3. `npm install` in your terminal to install all dependencies.
 4. `npm start` in your terminal to start server and build webpack bundle.
@@ -97,12 +97,13 @@ Navigate to localhost:3000 in your browser to view and use dashboard
 ### Future Development:
 1. Add test Coverage
 2. Add PDF generation upon form submission
-3. Add React Router for true 'redirect' to form page
+3. Add React Router for url 'redirect' to form page
 4. Implement TypeScript for type checking
 5. Implement GraphQL:
   Provides more flexiblity to fetch data
   Allows additional type safety
   Prevents overfetching
   Limits bandwith and waterfall requests for faster loads particularly on mobile
-6. Add regex for increased, specific validation
+6. Add regex for increased validation
 7. Add additional UI design and micro-interactions.
+8. Add true authorization for brokers
