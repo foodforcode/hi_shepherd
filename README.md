@@ -24,33 +24,33 @@ Navigate to localhost:3000 in your browser to view and use dashboard
 ### Completed Requirements:
 1. ✅ A simple web application for a broker to use.
 
-  A simple, no-frills application that is simple to use.
+    A simple, no-frills application that is simple to use.
 
 2. ✅ A broker lands on the home page and is shown 2 application options. These options are coming from an API.
 
-  An API is providing 2 application options to the broker.
+    An API is providing 2 application options to the broker.
 
 3. ✅ A broker clicks on an option and is shown a form with the respective fields.
 
-  Upon clicking, broker is shown the field inputs for the respective forms
+    Upon clicking, broker is shown the field inputs for the respective forms
 
 4. ✅ The broker submits the form upon completion.
 
-  The inputs are validated in the front end using required statments and type attributes.
+    The inputs are validated in the front end using required statments and type attributes.
 
-  The data is saved to a PostgreSQL database and prevented from sql injection attacks.
+    The data is saved to a PostgreSQL database and prevented from sql injection attacks.
 
-  An alert is presented to display successful submission or error.
+    An alert is presented to display successful submission or error.
 
-  Upon successful submission, a disabled form is displayed to present application information.
+    Upon successful submission, a disabled form is displayed to present application information.
 
 5. ✅ The broker is allowed to submit a form only if they have an “auth” cookie with the value “shepherd”.
 
-  Form submit only allowed for brokers authorized with headers ```{ cookie: shepherd }```
+    Form submit only allowed for brokers authorized with headers ```{ cookie: shepherd }```
 
 6. ✅ A working localhost demo.
 
-  The demo application can be tested locally at localhost:3000
+    The demo application can be tested locally at localhost:3000
 
 * Bonus:
    * Node.js
