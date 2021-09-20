@@ -1,22 +1,21 @@
-const { Client } = require('pg');
+const { Client } = require("pg");
 
 const client = new Client({
-  host: 'localhost',
+  host: "localhost",
   user: process.env.USER,
-  database: 'test',
+  database: "test",
   password: null,
   port: 5432,
-})
+});
 
-client.connect(err => {
-    if (err) {
-      console.log('connection error', err)
-    } else {
-      console.log('connected');
-    }
-  });
+client.connect((err) => {
+  if (err) {
+    console.log("connection error", err);
+  } else {
+    console.log("connected to postgres!");
+  }
+});
 
-// client.query('SELECT NOW()', (err, res) => {
-//   console.log('error', err, res);
-//   client.end();
-// })
+module.exports = {
+  client,
+};
