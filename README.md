@@ -2,6 +2,8 @@
 
 This simple, full-stack web application allows a broker to complete and submit an insurance application for a client.
 
+![shepherd](https://user-images.githubusercontent.com/40157919/134088603-c15c18f8-0d53-4d46-be39-b826bd4a5e69.gif)
+
 ## Demo (Local):
 > Note: This application was developed on a machine using an ARM processor, which may lead to unexpected issues during building on Linux/other systems.
 
@@ -59,6 +61,10 @@ Navigate to [localhost:3000](http://localhost:3000) in your browser to view and 
     * Saving data to PostgreSQL database
     * Protection against SQL injection attacks
     * Peep the tab of the web application for a familiar favicon!
+    * Lighthouse labs performance:
+    
+      <img width="455" alt="Screen Shot 2021-09-19 at 22 41 11" src="https://user-images.githubusercontent.com/40157919/134088687-148cc940-d5ec-45d2-a64d-9a146989f6e5.png">
+      <img width="465" alt="Screen Shot 2021-09-19 at 22 48 35" src="https://user-images.githubusercontent.com/40157919/134088692-1235f823-1cb4-481d-ab96-a3e275cb98da.png">
 
 
 ### 🏗 Architecture:
