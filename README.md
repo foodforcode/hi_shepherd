@@ -5,7 +5,7 @@ This full stack web application allows a broker to complete an application for a
 ## Demo (Local):
 > Note: This application was developed on a machine using an ARM processor, which may lead to unexpected issues during building on Linux/other systems.
 
-### Pre-Installation requirements:
+### Pre-Installation System Requirements:
 - Node.js (v16)
 - npm (v6)
 - Git (v2)
@@ -18,7 +18,7 @@ This full stack web application allows a broker to complete an application for a
 3. `npm install` in your terminal to install all dependencies.
 4. `npm start` in your terminal to start server and build webpack bundle.
 
-### View in browser:
+### View in Browser:
 Navigate to localhost:3000 in your browser to view and use dashboard
 
 ### Completed Requirements:
