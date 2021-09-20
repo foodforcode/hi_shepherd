@@ -29,9 +29,23 @@ module.exports = {
       {
         test: /\.css$/i,
         use: [
+          'style-loader',
           'css-loader'
         ]
-      }
+      },
+      {
+        test: /\.(png|jp(e*)g|svg)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'images',
+              esModule: false
+            },
+          },
+        ],
+      },
     ]
   }
 }

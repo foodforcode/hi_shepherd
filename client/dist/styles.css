@@ -1,0 +1,32 @@
+.app {
+  max-height: 100vh;
+  min-width: 500px;
+}
+
+.options {
+  margin: 0 auto;
+}
+
+.button-container-lg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  padding: 2rem;
+}
+
+.form-container {
+  padding: 1rem 2rem !important;
+}
+
+.message {
+  padding-top: 1rem;
+}
