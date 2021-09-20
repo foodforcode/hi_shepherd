@@ -1,4 +1,4 @@
 module.exports = [
-  "Liability",
+  "General Liability",
   "Builder's Risk"
 ]

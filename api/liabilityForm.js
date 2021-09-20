@@ -2,72 +2,78 @@ module.exports = [
   {
     "name": "Company Name",
     "type": "text",
-    "required": true
+    "required": true,
+    "label": "company_name"
   },
   {
     "name": "Primary Email",
     "type": "email",
-    "required": true
+    "required": true,
+    "label": "primary_email"
   },
   {
     "name": "Company Website",
-    "type": "url"
+    "type": "url",
+    "label": "company_website"
   },
   {
     "name": "Years in Business",
     "type": "number",
-    "required": true
+    "required": true,
+    "label": "years_in_business"
   },
   {
     "name": "Project Name",
-    "type": "text"
+    "type": "text",
+    "label": "project_name"
   },
   {
     "name": "Project Description",
-    "type": "text"
+    "type": "textarea",
+    "label": "project_description"
   },
   {
     "name": "Project Start Date",
     "type": "date",
-    "required": true
+    "required": true,
+    "label": "project_start_date"
   },
   {
-    "name": "Project Expected Completion Date",
+    "name": "Project Expected Completion",
     "type": "date",
-    "required": true
+    "required": true,
+    "label": "project_expected_completion"
   },
   {
-    "name": "Project Street Address Line 1",
-    "type": "text"
-  },
-  {
-    "name": "Project Street Address Line 2",
-    "type": "text"
+    "name": "Project Street Address",
+    "type": "text",
+    "label": "project_address_street"
   },
   {
     "name": "Project City",
-    "type": "text"
+    "type": "text",
+    "label": "project_address_city"
   },
   {
     "name": "Project Zipcode",
     "type": "text",
-    "required": true
+    "required": true,
+    "label": "project_address_zip"
   },
   {
-    "name": "Mailing Street Address Line 1",
-    "type": "text"
-  },
-  {
-    "name": "Mailing Street Address Line 2",
-    "type": "text"
+    "name": "Mailing Street Address",
+    "type": "text",
+    "label": "mailing_address_street"
   },
   {
     "name": "Mailing Street City",
-    "type": "text"
+    "type": "text",
+    "label": "mailing_address_street"
   },
   {
     "name": "Mailing Zipcode",
     "type": "text",
-    "required": true
+    "required": true,
+    "label": "mailing_address_zip"
   }
 ]
