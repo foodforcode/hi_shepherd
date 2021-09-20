@@ -57,6 +57,7 @@ Navigate to [localhost:3000](http://localhost:3000) in your browser to view and 
     * Express.js
     * React.js
     * Saving data to PostgreSQL database
+    * Protection against SQL injection attacks
     * Peep the tab of the web application for a familiar favicon!
 
 
